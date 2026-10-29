@@ -516,7 +516,7 @@ ${prov}
 rules:
 ${rules}
   - GEOIP,LAN,🎯 全球直连,no-resolve
-  - GEOIP,CN,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连,no-resolve
   - MATCH,🐟 漏网之鱼
 `;
 
