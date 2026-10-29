@@ -405,7 +405,7 @@ rule-providers:
 rules:
 {chr(10).join(rules)}
   - GEOIP,LAN,🎯 全球直连,no-resolve
-  - GEOIP,CN,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连,no-resolve
   - MATCH,🐟 漏网之鱼
 """
     return yaml, len(entries), len(landings), combos
