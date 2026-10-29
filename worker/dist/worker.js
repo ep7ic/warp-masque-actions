@@ -909,7 +909,7 @@ ${prov}
 rules:
 ${rules}
   - GEOIP,LAN,\u{1F3AF} \u5168\u7403\u76F4\u8FDE,no-resolve
-  - GEOIP,CN,\u{1F3AF} \u5168\u7403\u76F4\u8FDE
+  - GEOIP,CN,\u{1F3AF} \u5168\u7403\u76F4\u8FDE,no-resolve
   - MATCH,\u{1F41F} \u6F0F\u7F51\u4E4B\u9C7C
 `;
   return {
